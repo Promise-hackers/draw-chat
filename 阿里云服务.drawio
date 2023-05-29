@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T11:10:30.264Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="21.3.0" etag="0CXSXmv2QWTqfX8p__iX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-29T13:31:08.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Dq1weRlTw6mP5JQqcK8v" version="21.3.0" type="github">
   <diagram name="第 1 页" id="wJ1xgWn2Kf-X7yRGj9ZE">
-    <mxGraphModel>
+    <mxGraphModel dx="1246" dy="438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-1" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
+          <mxGeometry x="54.5" y="103" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.389;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s1_3obKbt5M2ft0S_fWu-3" target="s1_3obKbt5M2ft0S_fWu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-3" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.user" vertex="1" parent="1">
+          <mxGeometry x="46" y="222" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s1_3obKbt5M2ft0S_fWu-12" target="s1_3obKbt5M2ft0S_fWu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1_3obKbt5M2ft0S_fWu-12" target="s1_3obKbt5M2ft0S_fWu-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="346" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-12" value="发送验证码&lt;br&gt;&lt;br&gt;输入验证码&amp;nbsp; &amp;nbsp;注册" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="184.5" width="238" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s1_3obKbt5M2ft0S_fWu-16" target="s1_3obKbt5M2ft0S_fWu-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="607" y="59" />
+              <mxPoint x="70" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-16" value="阿里云短信服务&lt;br&gt;&lt;br&gt;将验证码作为短信发送给用户" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547" y="79" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="s1_3obKbt5M2ft0S_fWu-17" target="s1_3obKbt5M2ft0S_fWu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-17" value="sms&lt;br&gt;&lt;br&gt;生成验证码" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="547" y="216" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-18" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mysql_database;" vertex="1" parent="1">
+          <mxGeometry x="750" y="222" width="37.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-23" value="存储验证码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="457" y="223" width="78" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-25" value="调用sdk发送短信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="558" y="175" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-26" value="发送短信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="296" y="31" width="66" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s1_3obKbt5M2ft0S_fWu-27" target="s1_3obKbt5M2ft0S_fWu-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-27" value="ucenter&lt;br&gt;&lt;br&gt;校验验证码&lt;br&gt;&lt;br&gt;注册用户" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="338" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s1_3obKbt5M2ft0S_fWu-30" value="获取验证码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="688" y="354" width="78" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,9 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T06:47:28.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="21.3.0" etag="wz-5Ogzxd9imF9gmtNv6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-04T14:39:57.297Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1SoclyR6nKPca_cz7T2K" version="21.3.0" type="github">
   <diagram name="第 1 页" id="Q8ViVuvtgUyT3lMLct_A">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="438" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xZ6izr2LOvHBQ20HmvTs-1" target="xZ6izr2LOvHBQ20HmvTs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-15" value="在header中携带cookie中的token值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xZ6izr2LOvHBQ20HmvTs-14">
+          <mxGeometry x="-0.144" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-1" value="前端&lt;br&gt;&lt;br&gt;cookie&lt;br&gt;&lt;br&gt;数据绑定并展示" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="141" width="86" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.872;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xZ6izr2LOvHBQ20HmvTs-5" target="xZ6izr2LOvHBQ20HmvTs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-17" value="Jwtinfo: id、nickname、avatar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xZ6izr2LOvHBQ20HmvTs-16">
+          <mxGeometry x="0.1818" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-5" value="后端&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="469" y="56" width="215" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="518" y="163" width="139" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xZ6izr2LOvHBQ20HmvTs-10" value="解析header中的token从ttoken中获取Jwtinfo将Jwtinfo响应给前端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="196" width="125" height="24" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
